@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     const buffer = Buffer.from(bytes);
 
     // First convert input to buffer, regardless of input format
-    let processedBuffer = buffer;
+    const processedBuffer = buffer;
 
     // If output format is PDF
     if (format === 'pdf') {
