@@ -1,6 +1,6 @@
 # Image Converter Tool
 
-## Available at: [Image Converter Tool](https://image-converter-tool-dggaew6ea-flnzbas-projects.vercel.app/)
+## Available at: [Image Converter Tool](https://image-converter-tool.vercel.app/)
 
 ## Getting Started
 
