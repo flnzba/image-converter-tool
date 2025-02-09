@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "name": "Globe",
+      "url": "https://fzeba.com",
+      "icon": "globe"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/flnzba",
+      "icon": "github"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/flnthezeba",
+      "icon": "twitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/florian-zeba",
+      "icon": "linkedin"
+    }
+  ]
+}
