@@ -56,9 +56,12 @@ export default function WebPConverter() {
     <div className='flex flex-col items-center justify-center min-h-screen p-4'>
       <Card className='p-6 w-full max-w-md'>
         <CardContent className='space-y-6'>
-          <h2 className='text-xl font-bold'>Fast Image Converter</h2>
+          <h2 className='text-xl font-bold'>🖼️ Fast Image Converter</h2>
+          <h3 className='text-md font-bold font-serif'>
+            🔒 Fully private without any storage of converted images.
+          </h3>
           <p className='text-gray-600'>
-            Convert images to JPG, PNG, WebP, or PDF format.
+            🔄 Convert images to JPG, PNG, WebP, or PDF format.
           </p>
           <p className='text-gray-600'>
             <strong>Supported formats:</strong> JPG, PNG, WebP, PDF
