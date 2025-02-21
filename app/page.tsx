@@ -57,7 +57,7 @@ export default function WebPConverter() {
       <Card className='p-6 w-full max-w-md'>
         <CardContent className='space-y-6'>
           <h2 className='text-xl font-bold'>🖼️ Fast Image Converter</h2>
-          <h3 className='text-md font-bold font-serif'>
+          <h3 className='text-xl font-bold'>
             🔒 Fully private without any storage of converted images.
           </h3>
           <p className='text-gray-600'>
