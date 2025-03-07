@@ -11,7 +11,7 @@ const iconMap = {
 
 export function SocialLinksComp() {
   return (
-    <Card className='p-4 mt-8 flex justify-center gap-4'>
+    <div className='flex justify-center gap-6'>
       {socialLinks.links.map((link) => {
         const Icon = iconMap[link.icon as keyof typeof iconMap];
         return (
@@ -20,13 +20,14 @@ export function SocialLinksComp() {
             href={link.url}
             target='_blank'
             rel='noopener noreferrer'
-            className='text-gray-600 hover:text-gray-900 transition-colors'
+            className='text-muted-foreground hover:text-primary transition-colors duration-200'
+            aria-label={link.name}
           >
             <Icon size={24} />
             <span className='sr-only'>{link.name}</span>
           </a>
         );
       })}
-    </Card>
+    </div>
   );
 }
