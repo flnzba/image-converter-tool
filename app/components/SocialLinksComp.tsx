@@ -1,4 +1,3 @@
-import { Card } from '@/components/ui/card';
 import { Globe, Github, Twitter, Linkedin } from 'lucide-react';
 import socialLinks from '../data/social-links.json';
 
