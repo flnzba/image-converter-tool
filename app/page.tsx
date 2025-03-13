@@ -133,17 +133,16 @@ export default function WebPConverter() {
               <Button 
                 onClick={handleConversion} 
                 disabled={!file || isConverting}
-                className='w-full'
+                className='w-full h-10'
                 variant="default"
                 size="sm"
-                className="h-10"
               >
                 <Upload className='mr-2 h-4 w-4' />
                 {isConverting ? 'Converting...' : 'Convert'}
               </Button>
               {convertedFile && (
                 <a href={convertedFile} download={`converted.${format}`} className='w-full'>
-                  <Button className='w-full' variant="outline" size="sm" className="h-10">
+                  <Button className='w-full h-10' variant="outline" size="sm">
                     <Download className='mr-2 h-4 w-4' />
                     Download
                   </Button>
